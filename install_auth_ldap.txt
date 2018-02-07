@@ -1,3 +1,4 @@
 sudo apt-get install libsasl2-dev python-dev libldap2-dev libssl-dev
 sudo pip3 install pyldap
 sudo pip3 install django_auth_ldap
+sudo pip3 install django_python3_ldap
