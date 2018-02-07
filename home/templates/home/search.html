@@ -1,0 +1,69 @@
+{% extends 'home/base.html' %} {% block content %}
+
+    <center>
+
+        <form action="search.php" method="get" class="search">
+            <input type="hidden" name="search" value="true" />
+            <input type="hidden" name="form" value="simple" />
+            <input type="hidden" name="scope" value="sub" />
+
+            <table>
+                <td>
+                    <center>
+                        <b>Simple Search Form</b>
+                        <br />
+                        <small>(
+                            <a href="search.php?server_id=0&amp;form=advanced">Advanced Search Form</a>)</small>
+                        <br />
+                        <br />
+                    </center>
+
+                    <small>Server</small>
+                    <br />
+                    <select name="server_id" onChange="base_dn.value = server_base_dns[ this.value ]">
+                        <option value="0" selected>IITB LDAP Server</option>
+                    </select>
+                    <br />
+                    <br />
+                    <small>Search for entries whose:</small>
+                    <br />
+
+                    <nobr>
+                        <select name="attribute">
+                            <option value="uid">
+                                User Name </option>
+                            <option value="cn">
+                                Full Name </option>
+                            <option value="gidNumber">
+                                Group ID </option>
+                        </select>
+
+                        <select name="criterion">
+                            <option value="equals">
+                                equals </option>
+                            <option value="starts with">
+                                starts with </option>
+                            <option value="contains">
+                                contains </option>
+                            <option value="ends with">
+                                ends with </option>
+                            <option value="sounds like">
+                                sounds like </option>
+                        </select>
+                        <input type="text" name="filter" size="20" value="" />
+                        <br />
+                        <br />
+
+                        <center>
+                            <input type="submit" value="Search" />
+                        </center>
+                    </nobr>
+                </td>
+            </table>
+        </form>
+
+
+    </center>
+
+
+{% endblock %}

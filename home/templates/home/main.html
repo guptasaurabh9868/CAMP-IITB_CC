@@ -1,0 +1,49 @@
+{% extends 'home/base.html' %}
+{% block content1 %}
+			<div id="mySidenav" class="leftsidenav">
+				<a href="search.html">Search LDAP</a>
+				<a href="#">Email Forwarding</a>
+				<a href="#">Email AutoReply</a>
+				<a href="http://www.cc.iitb.ac.in">Computer Center</a>
+			</div>
+			<div id="mySidenav" class="rightsidenav">
+					<div class="form1">
+						<h4 class="login">Login</h4>
+						<form action=" " method="post">
+							{% csrf_token %}
+							<input type="type" name="username" placeholder="Username">
+							<br>
+							<input type="password" name="password" placeholder="Password">
+							<br>
+							<button class="btn btn-info btn-lg" onsubmit="">Submit</button>
+						</form>
+						{% if login_failed %}
+						<p style="
+						color: white;
+						font-size: 25px;
+					"> Login Failed !!! </p>
+						{% endif %}
+					</div>
+				</div>
+		<div class="container1">
+			<ul style="    padding-bottom: 20px;">
+				<li>Student</li>
+				<ol>
+					<li>details about student details about student details about student</li>
+					<li>details about student details about student details about student</li>
+				</ol>
+				<li>Faculty</li>
+				<ol>
+					<li>details about student details about student details about student</li>
+					<li>details about student details about student details about student</li>
+				</ol>
+				<li>CC Staff</li>
+				<ol>
+					<li>details about student details about student details about student</li>
+					<li>details about student details about student details about student</li>
+
+				</ol>
+			</ul>
+		</div>
+		
+{% endblock %}

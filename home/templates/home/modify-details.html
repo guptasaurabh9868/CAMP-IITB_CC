@@ -1,0 +1,83 @@
+{% extends 'home/base.html' %} {% block content %}
+
+
+Data entry fields marked with
+<span style="font-weight:bold;color:BLUE">+</span> are required. Data entry fields marked with
+<span style="font-weight:bold;color:RED">*</span> contain errors or are empty.
+<form method="post" action="/cgi-bin/normal.cgi?val=24" enctype="multipart/form-data" name="" onsubmit="">
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>FirstName+MiddleName
+                    <span style="font-weight:bold;color:BLUE">+</span>
+                    <span style="font-weight:bold;color:RED">*</span>
+                </td>
+                <td>
+                    <input type="text" name="FirstName+MiddleName" value="Saurabh" desc="">
+                </td>
+            </tr>
+            <tr>
+                <td>Fax Number</td>
+                <td>
+                    <input type="text" name="Fax Number">
+                </td>
+            </tr>
+            <tr>
+                <td>Home Postal Address</td>
+                <td>
+                    <input type="text" name="Home Postal Address">
+                </td>
+            </tr>
+            <tr>
+                <td>Office Phone Number</td>
+                <td>
+                    <input type="text" name="Office Phone Number">
+                </td>
+            </tr>
+            <tr>
+                <td>LastName
+                    <span style="font-weight:bold;color:BLUE">+</span>
+                    <span style="font-weight:bold;color:RED">*</span>
+                </td>
+                <td>
+                    <input type="text" name="LastName" value="Gupta">
+                </td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td>
+                    <input type="text" name="Mobile Number">
+                </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td>
+                    <input type="text" name="Description">
+                </td>
+            </tr>
+            <tr>
+                <td>Home Phone Number</td>
+                <td>
+                    <input type="text" name="Home Phone Number">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <span>
+        <input type="submit" name="Modify" value="Modify">
+        <input type="submit" name=".defaults" value="Clear"> </span>
+</form>
+<hr>
+
+<center>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    <a href={% url 'userinfo' %}>Back</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+{% endblock %}

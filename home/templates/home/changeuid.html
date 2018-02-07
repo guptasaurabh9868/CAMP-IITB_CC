@@ -1,0 +1,17 @@
+{% extends 'home/base.html' %} {% block content %}
+
+<p>You have already changed your USERID **OR** This facility is not availiable to misc, guest, institutional and temporary external
+    accounts.
+</p>
+<center>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    <a href={% url 'userinfo' %}>Back</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+{% endblock %}

@@ -1,0 +1,76 @@
+{% extends 'home/base.html' %} {% block content %}
+    <h2>Set/Reset mail AutoReplyText/MailForwardingAddress.</h2>
+    <h2>
+        <font color="red">Note: Only one of Forward/NoForward/AutoReply will work at a time (for example, If Mail Forwarding is enabled, AutoReply
+            will not work and vice versa).</font>
+    </h2>Data entry fields marked with
+    <span style="font-weight:bold;color:BLUE">+</span> are required. Data entry fields marked with
+    <span style="font-weight:bold;color:RED">*</span> contain errors or are empty.
+    <form method="post" action="/cgi-bin/normal.cgi?val=27" enctype="multipart/form-data"
+        onsubmit="" name="">
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>Operation
+                        <span style="font-weight:bold;color:BLUE">+</span>
+                        <span style="font-weight:bold;color:RED">*</span>
+                    </td>
+                    <td>
+                        <span>
+                            <font color="red">Forward:</font> redirect all incoming mails to specified forwarding address (no local copies).
+                            <br>
+                            <font color="red">NoForward:</font> Clear out AufoForwarding or AutoReplying modes you might have setup.
+                            <br>
+                            <font color="red">AutoReply:</font> Automatically reply to mails with a short message typed in by you.</span>
+                        <br>
+                        <label>
+                            <input type="radio" name="Operation" value="Forward" checked="checked" desc="<font color=red>Forward:</font> redirect all incoming mails to specified forwarding address (no local copies).<br> <font color=red>NoForward:</font> Clear out AufoForwarding or AutoReplying modes you might have setup. <br><font color=red>AutoReply:</font> Automatically reply to mails with a short message typed in by you.">Forward</label>
+                        <label>
+                            <input type="radio" name="Operation" value="NoForward" desc="<font color=red>Forward:</font> redirect all incoming mails to specified forwarding address (no local copies).<br> <font color=red>NoForward:</font> Clear out AufoForwarding or AutoReplying modes you might have setup. <br><font color=red>AutoReply:</font> Automatically reply to mails with a short message typed in by you.">NoForward</label>
+                        <label>
+                            <input type="radio" name="Operation" value="AutoReply" desc="<font color=red>Forward:</font> redirect all incoming mails to specified forwarding address (no local copies).<br> <font color=red>NoForward:</font> Clear out AufoForwarding or AutoReplying modes you might have setup. <br><font color=red>AutoReply:</font> Automatically reply to mails with a short message typed in by you.">AutoReply</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>ForwardingAddress</td>
+                    <td>
+                        <span>Enter your Forwarding Address.
+                            <br>Do not enter your current email address (i.e. ldap-id based email address) as forwarding address.
+                            </span>
+                        <br>
+                        <input type="text" name="ForwardingAddress" desc="Enter your Forwarding Address. <br>Do not enter your current email address (i.e. ldap-id based email address) as forwarding address. ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>AutoReplyText</td>
+                    <td>
+                        <span>Fill in your Mail Auto Reply Text (this is needed only if you are filling up the operation as Autoreply.
+                            This is ignored in all other cases)</span>
+                        <br>
+                        <textarea name="AutoReplyText" rows="10" cols="81" desc="Fill in your Mail Auto Reply Text (this is needed only if you are filling up the operation as Autoreply. This is ignored in all other cases)"
+                            maxlength="820" size="820"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <span>
+            <input type="submit" name="Submit" value="Submit">
+            <input type="submit" name=".defaults" value="Clear"> </span>
+        <div>
+            <input type="hidden" name=".cgifields" value="Operation">
+        </div>
+    </form>
+    <hr>
+
+    <center>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <a href={% url 'userinfo' %}>Back</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+{% endblock %}

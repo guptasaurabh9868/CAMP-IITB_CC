@@ -1,0 +1,241 @@
+.container{
+    padding: 3px 48px 1px 15px;
+    border-bottom: 3px solid;
+    height: 127px;
+}
+.container1{
+    padding: 26px 308px 0px 311px;
+}
+.container2{
+    padding: 1% 22%;
+    border-bottom: 3px solid;
+}
+.container4{
+    margin: 106px 0px 0px 459px;
+    height: 358px;
+    width: 608px;
+    background: #444442;
+    border-radius: 11px;
+}
+.profile{
+    padding: 0px 0px 0px 0px;
+    width: 651px;
+    height: 359px;
+    color: #f0f0f0;
+    font-size: 36px;
+    font-family: 'Dosis', sans-serif;font-weight: 700;
+}
+.one{
+    padding: 0px 14px 0px 11px;
+    float: left;
+}
+.two{
+    padding: 0px 103px 0px 24px;
+    float : right;
+}
+.links{
+    padding: 0px 0px 0px 0px;
+    font-size: 23px;
+}
+.abc1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+.logo{
+    height: 109px;
+    position: relative;
+    margin: 0px 0px -141px 73px
+}
+h3{font-size: 36px;color: black;font-family: 'Dosis', sans-serif;font-weight: 700;padding-bottom: 0px;margin-bottom: 0px;}
+.fa-chevron-right{
+position: relative;
+left: 40px;
+
+}
+h4{
+font-size: 20px;
+font-weight: 500;
+padding-bottom: 0px;
+padding-top: 0px;
+margin-bottom: 18px;
+margin-top: 0px;
+}
+.table{
+    color: #ffffff;
+}
+.db li{
+list-style-type: circle;
+}
+ul li{
+list-style-type: none;
+font-size: 16px;
+padding: 9px 3px;
+font-weight:500;
+}
+
+.box{
+font-family: 'Dosis', sans-serif;
+padding :10px 100px;
+}
+.leftsidenav {
+    height: 67%;
+    width: 100;
+    z-index: 1;
+    position: relative;
+    float: left;
+    top: -15px;
+    left: 1px;
+    overflow-x: hidden;
+    padding: 47px 0px 0px 29px;
+}
+.leftsidenav a {
+margin: 10px;
+padding: 11px 35px 11px 20px;
+text-decoration: none;
+font-size: 23px;
+color: black;
+display:block;
+transition: 0.3s;
+background: darkgray;
+margin: 10px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.leftsidenav a:hover, .offcanvas a:focus{
+color: white;
+}
+
+/* Position and style the close button (top right corner) */
+.leftsidenav .closebtn {
+position: relative;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+
+.rightsidenav {
+height: 77%; /* 100% Full-height */
+width: 100; /* 0 width - change this with JavaScript */
+position: relative; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0px;
+left: 0px;
+float: right;
+overflow-x: hidden; /* Disable horizontal scroll */
+padding: 39px 18px 0px 0px; /* Place content 60px from the top */
+/* transition: 0.5s; */ /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+.rightsidenav input {
+padding: 10px 35px 10px 10px;
+text-decoration: none;
+font-size: 15px;
+color: #818181;
+display: block;
+transition: 0.3s
+}
+.rightsidenav button:hover {background: #a2a2a2;border-radius: 30px;
+}
+
+.rightsidenav button {
+padding: 10px 60px 10px 60px;
+text-decoration: none;
+font-size: 23px;
+color: white;
+display: block;
+transition: 0.3s;
+background: black;
+border-radius: 19px;
+border: 1px solid;
+}
+.rightsidenav h4 {
+padding: 17px 20px 3px 7px;
+margin-bottom: 10px;
+text-decoration: none;
+font-size: 36px;
+color: white;
+display: block;
+font-family: 'Open Sans', sans-serif;
+transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.rightsidenav a:hover, .offcanvas a:focus{
+color: #000000;
+}
+
+.bg{
+background: rgba(0, 0, 0, 0.38); 
+}
+/* Position and style the close button (top right corner) */
+.rightsidenav .closebtn {
+position: relative;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}   
+.login{
+margin: 0px;
+padding: 0px;
+}
+.container1 ul{background: rgba(255, 255, 255, 0.56);
+
+}
+.container1 ul li{    font-size: 33px;font-family: 'Open Sans', sans-serif;
+
+}
+
+.container1 ul ol li{
+font-size: 16px;
+padding: 6px;
+list-style-type: disc;
+}
+.rightsidenav .form1{
+padding: 11px;
+}
+.row{
+    padding: 0px 0px 0px 0px;
+    height: 51px;
+    width: 1233px;
+    margin-left: 131px;
+    margin-top: 30px
+}
+.column1{
+    padding: 14px 28px 9px 25px;
+    float: left;
+    margin: 0px 7px 22px 20px;
+    background: #c1bebe;
+    border-radius: 11px;
+}
+.column2{
+    padding: 14px 28px 9px 25px;
+    float: left;
+    margin: 0px 0px 0px 73px;
+    background: #c1bebe;
+    border-radius: 11px;
+}
+.column3{
+    padding: 14px 28px 9px 25px;
+    float: right;
+    margin: 0px 0px 0px 163px;
+    background: #c1bebe;
+    border-radius: 11px;
+}
+.column4{
+    padding: 14px 28px 9px 25px;
+    float: right;
+    margin: 0px 0px 0px 73px;
+    background: #c1bebe;
+    border-radius: 11px;
+}

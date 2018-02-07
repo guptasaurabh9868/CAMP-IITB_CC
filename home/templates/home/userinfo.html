@@ -1,0 +1,98 @@
+{% extends 'home/base.html' %} {% block content %} 
+
+<div id="mySidenav" class="leftsidenav">
+    <a href={% url 'depart_sysad' %}> Dept Sysads </a>
+    <a href={% url 'hostel_sysad' %}> Hostel Sysads </a>
+    <a href="#">Email AutoReply</a>
+    <a href="https://www.cc.iitb.ac.in/engipallocations/engipallocationscheme/39-resnet-ip-allocation-scheme">Residential IP-Allocation</a>
+</div>
+<div id="mySidenav" class="rightsidenav">
+    <form action="" method="post">
+        {% csrf_token %}
+        <button class="button" onsubmit="">logout</button>
+
+    </form>
+</div>
+<div class="container4">
+    <div class="profile">
+        <div class="one">
+            <ul>
+                <li>
+                    <b>Login </b>
+                </li>
+                <li>
+                    <b>Privileges</b>
+                </li>
+                <li>
+                    <b>Account Type</b>
+                </li>
+                <li>
+                    <b>Emp/Roll Number</b>
+                </li>
+                <li>
+                    <b>Expiry</b>
+                </li>
+                <li>
+                    <b>IT policy
+                    </b>
+                </li>
+                <li>
+                    <b> Mail Forwarded To</b>
+                </li>
+                <li>
+                    <b>Bighome Quota Usage </b>
+                </li>
+            </ul>
+        </div>
+        <div class="two">
+            <ul>
+                <li>
+                    <b> {{ user.userprofile.cn }} </b>
+                </li>
+                <li>
+                    <b> Normal User</b>
+                </li>
+                <li>
+                    <b> {{ user.userprofile.accounttype }}</b>
+                </li>
+                <li>
+                    <b> {{ user.userprofile.roll_number }}</b>
+                </li>
+                <li>
+                    <b> {{ shadowexpire|date:"M d, Y" }}</b>
+                </li>
+                <li>
+                    <b>
+                        {% if user.userprofile.policy == "accept" %} Accepted {% else %} Not Accepted {% endif %}</b>
+                </li>
+                <li>
+                    <b> Not Forwarded </b>
+                </li>
+                <li>
+                    <b> B/500MB </b>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="links">
+    <div class=row>
+        <div class="column1">
+            <a href={% url 'web_quota' %}>Web Quota Usage</a>
+        </div>
+        <div class="column2">
+            <a href={% url 'changeuid' %}> Change Uid </a>
+        </div>
+        <div class="column3">
+            <a href={% url 'passwordchange' %}> Change Passwd </a>
+        </div>
+        <div class="column4">
+            <a href={% url 'modify_details' %}>Modify Personal Details</a>
+        </div>
+    </div>
+<div class="row">
+    <div class="column1">
+        <a href={% url 'setup_auto' %}>Setup AutoForward or AutoReply</a>
+    </div>
+</div>
+ {% endblock %}

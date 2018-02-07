@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US" class="gr__camp_iitb_ac_in">
+
+<head>
+    <title>Find your Uid Web Page.</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body data-gr-c-s-loaded="true">
+    <h3>Find your UID from Roll number / Employee Number.</h3>Data entry fields marked with
+    <span style="font-weight:bold;color:BLUE">+</span> are required. Data entry fields marked with
+    <span style="font-weight:bold;color:RED">*</span> contain errors or are empty.
+    <form method="post" action="/cgi-bin/normal.cgi?val=8" enctype="multipart/form-data"
+        onsubmit="" name="">
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>RollNumber
+                        <span style="font-weight:bold;color:BLUE">+</span>
+                        <span style="font-weight:bold;color:RED">*</span>
+                    </td>
+                    <td>
+                        <span>Roll Number / Employee Number</span>
+                        <br>
+                        <input type="text" name="RollNumber" size="8" maxlength="8" desc="Roll Number / Employee Number">
+                        <span style="font-style:italic;color:red">8/9 digits for students eg 02005002 and 6 digits for staff eg I01009/P00022/050505</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <span>
+            <input type="submit" name="Find" value="Find">
+            <input type="submit" name=".defaults" value="Clear"> </span>
+    </form>
+    <hr>
+
+    <center>
+        <table border="1">
+            <tbody>
+                <tr>
+                    <td>
+                        <a href={% url 'userinfo' %}>Back</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </center>
+</body>
+
+</html>

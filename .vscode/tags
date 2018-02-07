@@ -1,0 +1,215 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../home/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20171101_1717.py	../home/migrations/0002_auto_20171101_1717.py	1;"	kind:file	line:1
+0003_auto_20171127_0840.py	../home/migrations/0003_auto_20171127_0840.py	1;"	kind:file	line:1
+0004_auto_20171128_0606.py	../home/migrations/0004_auto_20171128_0606.py	1;"	kind:file	line:1
+0005_userprofile_forwardedmail.py	../home/migrations/0005_userprofile_forwardedmail.py	1;"	kind:file	line:1
+0006_remove_userprofile_shadowexpire.py	../home/migrations/0006_remove_userprofile_shadowexpire.py	1;"	kind:file	line:1
+0007_userprofile_shadowexpire.py	../home/migrations/0007_userprofile_shadowexpire.py	1;"	kind:file	line:1
+0008_auto_20171128_1334.py	../home/migrations/0008_auto_20171128_1334.py	1;"	kind:file	line:1
+0009_auto_20171128_1337.py	../home/migrations/0009_auto_20171128_1337.py	1;"	kind:file	line:1
+0010_auto_20171128_1340.py	../home/migrations/0010_auto_20171128_1340.py	1;"	kind:file	line:1
+0011_auto_20171128_1343.py	../home/migrations/0011_auto_20171128_1343.py	1;"	kind:file	line:1
+0012_auto_20171128_1347.py	../home/migrations/0012_auto_20171128_1347.py	1;"	kind:file	line:1
+0013_auto_20171129_1218.py	../home/migrations/0013_auto_20171129_1218.py	1;"	kind:file	line:1
+0014_auto_20171129_1248.py	../home/migrations/0014_auto_20171129_1248.py	1;"	kind:file	line:1
+0015_auto_20171129_1251.py	../home/migrations/0015_auto_20171129_1251.py	1;"	kind:file	line:1
+0016_auto_20171129_1253.py	../home/migrations/0016_auto_20171129_1253.py	1;"	kind:file	line:1
+0017_auto_20171129_1253.py	../home/migrations/0017_auto_20171129_1253.py	1;"	kind:file	line:1
+0018_auto_20171129_1259.py	../home/migrations/0018_auto_20171129_1259.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../camp/settings.py	/^ALLOWED_HOSTS = ["*"]$/;"	kind:variable	line:31
+AUTHENTICATION_BACKENDS	../camp/settings.py	/^AUTHENTICATION_BACKENDS = ($/;"	kind:variable	line:34
+AUTH_LDAP_BIND_DN	../camp/settings.py	/^AUTH_LDAP_BIND_DN = ""$/;"	kind:variable	line:44
+AUTH_LDAP_BIND_PASSWORD	../camp/settings.py	/^AUTH_LDAP_BIND_PASSWORD = ""$/;"	kind:variable	line:45
+AUTH_LDAP_CONNECTION_OPTIONS	../camp/settings.py	/^AUTH_LDAP_CONNECTION_OPTIONS = { $/;"	kind:variable	line:84
+AUTH_LDAP_PROFILE_ATTR_MAP	../camp/settings.py	/^AUTH_LDAP_PROFILE_ATTR_MAP = {$/;"	kind:variable	line:65
+AUTH_LDAP_PROFILE_FLAGS_BY_DN_REGEX	../camp/settings.py	/^AUTH_LDAP_PROFILE_FLAGS_BY_DN_REGEX = {$/;"	kind:variable	line:79
+AUTH_LDAP_SERVER_URI	../camp/settings.py	/^AUTH_LDAP_SERVER_URI = "ldap:\/\/10.100.115.208"$/;"	kind:variable	line:39
+AUTH_LDAP_USER_ATTR_MAP	../camp/settings.py	/^AUTH_LDAP_USER_ATTR_MAP = {$/;"	kind:variable	line:50
+AUTH_LDAP_USER_SEARCH	../camp/settings.py	/^AUTH_LDAP_USER_SEARCH = LDAPSearch('dc=iitb,dc=ac,dc=in',$/;"	kind:variable	line:47
+AUTH_PASSWORD_VALIDATORS	../camp/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:153
+AUTH_PROFILE_MODULE	../camp/settings.py	/^AUTH_PROFILE_MODULE = 'home.UserProfile'$/;"	kind:variable	line:63
+BASE_DIR	../camp/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:19
+DATABASES	../camp/settings.py	/^DATABASES = {$/;"	kind:variable	line:142
+DEBUG	../camp/settings.py	/^DEBUG = True$/;"	kind:variable	line:29
+HomeConfig	../home/apps.py	/^class HomeConfig(AppConfig):$/;"	kind:class	line:4
+INSTALLED_APPS	../camp/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:89
+LANGUAGE_CODE	../camp/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:172
+LOGGING	../camp/settings.py	/^LOGGING = {$/;"	kind:variable	line:189
+LOGIN_REDIRECT_URL	../camp/settings.py	/^LOGIN_REDIRECT_URL = 'user:home'$/;"	kind:variable	line:137
+LOGIN_URL	../camp/settings.py	/^LOGIN_URL = 'account:login'$/;"	kind:variable	line:135
+MEDIA_ROOT	../camp/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'media\/')$/;"	kind:variable	line:133
+MEDIA_URL	../camp/settings.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:187
+MIDDLEWARE	../camp/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:100
+Migration	../home/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:10
+Migration	../home/migrations/0002_auto_20171101_1717.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0003_auto_20171127_0840.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0004_auto_20171128_0606.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0005_userprofile_forwardedmail.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0006_remove_userprofile_shadowexpire.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0007_userprofile_shadowexpire.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0008_auto_20171128_1334.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0009_auto_20171128_1337.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0010_auto_20171128_1340.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0011_auto_20171128_1343.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0012_auto_20171128_1347.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0013_auto_20171129_1218.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0014_auto_20171129_1248.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0015_auto_20171129_1251.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0016_auto_20171129_1253.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0017_auto_20171129_1253.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	../home/migrations/0018_auto_20171129_1259.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+PasswordChangeForm	../home/forms.py	/^class PasswordChangeForm(forms.ModelForm):$/;"	kind:class	line:4
+ROOT_URLCONF	../camp/settings.py	/^ROOT_URLCONF = 'camp.urls'$/;"	kind:variable	line:110
+SECRET_KEY	../camp/settings.py	/^SECRET_KEY = 'w@j!n&0#@nc%fznd1ynnyvj%+mj&+2w(!$7!s^y$l91rc)h%te'$/;"	kind:variable	line:26
+STATIC_ROOT	../camp/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles\/')$/;"	kind:variable	line:131
+STATIC_URL	../camp/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:186
+TEMPLATES	../camp/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:112
+TIME_ZONE	../camp/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:174
+USE_I18N	../camp/settings.py	/^USE_I18N = True$/;"	kind:variable	line:176
+USE_L10N	../camp/settings.py	/^USE_L10N = True$/;"	kind:variable	line:178
+USE_TZ	../camp/settings.py	/^USE_TZ = True$/;"	kind:variable	line:180
+UserProfile	../home/models.py	/^class UserProfile(models.Model):$/;"	kind:class	line:7
+WSGI_APPLICATION	../camp/settings.py	/^WSGI_APPLICATION = 'camp.wsgi.application'$/;"	kind:variable	line:128
+__init__.py	../camp/__init__.py	1;"	kind:file	line:1
+__init__.py	../home/__init__.py	1;"	kind:file	line:1
+__init__.py	../home/migrations/__init__.py	1;"	kind:file	line:1
+__str__	../home/models.py	/^    def __str__(self):$/;"	kind:member	line:32
+accounttype	../home/models.py	/^    accounttype = models.CharField(max_length=254)$/;"	kind:variable	line:28
+admin.py	../home/admin.py	1;"	kind:file	line:1
+application	../camp/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../home/apps.py	1;"	kind:file	line:1
+changeuid	../home/views.py	/^def changeuid(request):$/;"	kind:function	line:119
+cn	../home/models.py	/^    cn = models.CharField(max_length=254)$/;"	kind:variable	line:12
+create_user_profile	../home/models.py	/^def create_user_profile(sender, instance, created, **kwargs):$/;"	kind:function	line:37
+depart_sysad	../home/views.py	/^def depart_sysad(request):$/;"	kind:function	line:117
+dependencies	../home/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:14
+dependencies	../home/migrations/0002_auto_20171101_1717.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0003_auto_20171127_0840.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0004_auto_20171128_0606.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0005_userprofile_forwardedmail.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0006_remove_userprofile_shadowexpire.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0007_userprofile_shadowexpire.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0008_auto_20171128_1334.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0009_auto_20171128_1337.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0010_auto_20171128_1340.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0011_auto_20171128_1343.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0012_auto_20171128_1347.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0013_auto_20171129_1218.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0014_auto_20171129_1248.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0015_auto_20171129_1251.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0016_auto_20171129_1253.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0017_auto_20171129_1253.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../home/migrations/0018_auto_20171129_1259.py	/^    dependencies = [$/;"	kind:variable	line:10
+email	../home/models.py	/^    email = models.EmailField(max_length=254)$/;"	kind:variable	line:26
+field	../home/migrations/0003_auto_20171127_0840.py	/^            field=models.CharField(default='himanshu', max_length=20),$/;"	kind:variable	line:18
+field	../home/migrations/0004_auto_20171128_0606.py	/^            field=models.CharField(max_length=20),$/;"	kind:variable	line:18
+field	../home/migrations/0005_userprofile_forwardedmail.py	/^            field=models.CharField(default='khanepeena', max_length=254),$/;"	kind:variable	line:18
+field	../home/migrations/0007_userprofile_shadowexpire.py	/^            field=models.CharField(default='12345', max_length=254),$/;"	kind:variable	line:18
+field	../home/migrations/0008_auto_20171128_1334.py	/^            field=models.IntegerField(default=12345),$/;"	kind:variable	line:18
+field	../home/migrations/0009_auto_20171128_1337.py	/^            field=models.IntegerField(),$/;"	kind:variable	line:18
+field	../home/migrations/0010_auto_20171128_1340.py	/^            field=models.IntegerField(default=18469),$/;"	kind:variable	line:18
+field	../home/migrations/0011_auto_20171128_1343.py	/^            field=models.IntegerField(),$/;"	kind:variable	line:18
+field	../home/migrations/0013_auto_20171129_1218.py	/^            field=models.IntegerField(default=0),$/;"	kind:variable	line:18
+field	../home/migrations/0014_auto_20171129_1248.py	/^            field=models.IntegerField(),$/;"	kind:variable	line:18
+field	../home/migrations/0015_auto_20171129_1251.py	/^            field=models.CharField(max_length=20),$/;"	kind:variable	line:18
+field	../home/migrations/0016_auto_20171129_1253.py	/^            field=models.IntegerField(max_length=20),$/;"	kind:variable	line:18
+field	../home/migrations/0017_auto_20171129_1253.py	/^            field=models.IntegerField(),$/;"	kind:variable	line:18
+field	../home/migrations/0018_auto_20171129_1259.py	/^            field=models.CharField(max_length=20),$/;"	kind:variable	line:18
+fields	../home/forms.py	/^    fields = ('userPassword','first_name')/;"	kind:variable	line:6
+fields	../home/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:21
+first_name	../home/models.py	/^    first_name = models.CharField(max_length=254)$/;"	kind:variable	line:14
+forms.py	../home/forms.py	1;"	kind:file	line:1
+forwardedmail	../home/models.py	/^    forwardedmail = models.CharField(max_length=254,default="khanepeena")$/;"	kind:variable	line:27
+handler	../camp/settings.py	/^handler = logging.handlers.RotatingFileHandler(logfile, maxBytes=1024 * 500, backupCount=5)$/;"	kind:variable	line:219
+home	../home/views.py	/^def home(request):$/;"	kind:function	line:36
+hostel_sysad	../home/views.py	/^def hostel_sysad(request):$/;"	kind:function	line:121
+initial	../home/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:12
+last_name	../home/models.py	/^    last_name = models.CharField(max_length=254)$/;"	kind:variable	line:13
+logfile	../camp/settings.py	/^logfile = "\/tmp\/django-ldap-debug.log"$/;"	kind:variable	line:216
+manage.py	../manage.py	1;"	kind:file	line:1
+model	../home/forms.py	/^    model = UserProfile$/;"	kind:variable	line:5
+model_name	../home/migrations/0002_auto_20171101_1717.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0003_auto_20171127_0840.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0004_auto_20171128_0606.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0005_userprofile_forwardedmail.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0006_remove_userprofile_shadowexpire.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0007_userprofile_shadowexpire.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0008_auto_20171128_1334.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0009_auto_20171128_1337.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0010_auto_20171128_1340.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0011_auto_20171128_1343.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0012_auto_20171128_1347.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0013_auto_20171129_1218.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0014_auto_20171129_1248.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0015_auto_20171129_1251.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0016_auto_20171129_1253.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0017_auto_20171129_1253.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+model_name	../home/migrations/0018_auto_20171129_1259.py	/^            model_name='userprofile',$/;"	kind:variable	line:16
+models.py	../home/models.py	1;"	kind:file	line:1
+modify_details	../home/views.py	/^def modify_details(request):$/;"	kind:function	line:146
+my_logger	../camp/settings.py	/^my_logger = logging.getLogger('django_auth_ldap')$/;"	kind:variable	line:217
+name	../home/apps.py	/^    name = 'home'$/;"	kind:variable	line:5
+name	../home/migrations/0001_initial.py	/^            name='UserProfile',$/;"	kind:variable	line:20
+name	../home/migrations/0003_auto_20171127_0840.py	/^            name='roll_number',$/;"	kind:variable	line:17
+name	../home/migrations/0004_auto_20171128_0606.py	/^            name='roll_number',$/;"	kind:variable	line:17
+name	../home/migrations/0005_userprofile_forwardedmail.py	/^            name='forwardedmail',$/;"	kind:variable	line:17
+name	../home/migrations/0006_remove_userprofile_shadowexpire.py	/^            name='shadowExpire',$/;"	kind:variable	line:17
+name	../home/migrations/0007_userprofile_shadowexpire.py	/^            name='shadowExpire',$/;"	kind:variable	line:17
+name	../home/migrations/0008_auto_20171128_1334.py	/^            name='shadowExpire',$/;"	kind:variable	line:17
+name	../home/migrations/0009_auto_20171128_1337.py	/^            name='shadowExpire',$/;"	kind:variable	line:17
+name	../home/migrations/0010_auto_20171128_1340.py	/^            name='shadowExpire',$/;"	kind:variable	line:17
+name	../home/migrations/0011_auto_20171128_1343.py	/^            name='shadowExpire',$/;"	kind:variable	line:17
+name	../home/migrations/0013_auto_20171129_1218.py	/^            name='shadowexpire',$/;"	kind:variable	line:17
+name	../home/migrations/0014_auto_20171129_1248.py	/^            name='shadowexpire',$/;"	kind:variable	line:17
+name	../home/migrations/0015_auto_20171129_1251.py	/^            name='shadowexpire',$/;"	kind:variable	line:17
+name	../home/migrations/0016_auto_20171129_1253.py	/^            name='shadowexpire',$/;"	kind:variable	line:17
+name	../home/migrations/0017_auto_20171129_1253.py	/^            name='shadowexpire',$/;"	kind:variable	line:17
+name	../home/migrations/0018_auto_20171129_1259.py	/^            name='shadowexpire',$/;"	kind:variable	line:17
+new_name	../home/migrations/0002_auto_20171101_1717.py	/^            new_name='uid',$/;"	kind:variable	line:18
+new_name	../home/migrations/0012_auto_20171128_1347.py	/^            new_name='shadowexpire',$/;"	kind:variable	line:18
+old_name	../home/migrations/0002_auto_20171101_1717.py	/^            old_name='username',$/;"	kind:variable	line:17
+old_name	../home/migrations/0012_auto_20171128_1347.py	/^            old_name='shadowExpire',$/;"	kind:variable	line:17
+operations	../home/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:18
+operations	../home/migrations/0002_auto_20171101_1717.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0003_auto_20171127_0840.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0004_auto_20171128_0606.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0005_userprofile_forwardedmail.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0006_remove_userprofile_shadowexpire.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0007_userprofile_shadowexpire.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0008_auto_20171128_1334.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0009_auto_20171128_1337.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0010_auto_20171128_1340.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0011_auto_20171128_1343.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0012_auto_20171128_1347.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0013_auto_20171129_1218.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0014_auto_20171129_1248.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0015_auto_20171129_1251.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0016_auto_20171129_1253.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0017_auto_20171129_1253.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../home/migrations/0018_auto_20171129_1259.py	/^    operations = [$/;"	kind:variable	line:14
+passwordchange	../home/views.py	/^def passwordchange(request):$/;"	kind:function	line:132
+policy	../home/models.py	/^    policy = models.CharField(max_length=254)$/;"	kind:variable	line:25
+roll_number	../home/models.py	/^    roll_number = models.CharField(max_length=20)$/;"	kind:variable	line:21
+settings.py	../camp/settings.py	1;"	kind:file	line:1
+setup_auto	../home/views.py	/^def setup_auto(request):$/;"	kind:function	line:148
+shadowexpire	../home/models.py	/^    shadowexpire = models.CharField(null=False,max_length=20)$/;"	kind:variable	line:18
+telephoneNumber	../home/models.py	/^    telephoneNumber = models.CharField(max_length=254)$/;"	kind:variable	line:30
+tests.py	../home/tests.py	1;"	kind:file	line:1
+uid	../home/models.py	/^    uid = models.CharField(max_length=254)$/;"	kind:variable	line:11
+uidChanged	../home/models.py	/^    uidChanged = models.BooleanField(default=False)$/;"	kind:variable	line:15
+urlpatterns	../camp/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../home/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urls.py	../camp/urls.py	1;"	kind:file	line:1
+urls.py	../home/urls.py	1;"	kind:file	line:1
+user	../home/models.py	/^    user = models.OneToOneField(User)$/;"	kind:variable	line:9
+userPassword	../home/models.py	/^    userPassword = models.CharField(max_length=254)$/;"	kind:variable	line:16
+userinfo	../home/views.py	/^def userinfo(request):$/;"	kind:function	line:71
+views.py	../home/views.py	1;"	kind:file	line:1
+web_quota	../home/views.py	/^def web_quota(request):$/;"	kind:function	line:150
+wsgi.py	../camp/wsgi.py	1;"	kind:file	line:1
